@@ -1,0 +1,55 @@
+p{
+    text-align: left;
+    /* text-align: start; 
+    its like left */
+    text-align: end;
+    /* its like right align */
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: yellow line-through;
+    text-decoration: rgb(145, 95, 192) dotted underline;
+
+}
+a{
+    /* by default every a tag has underline if we want 
+    to remove then simply we text-decoration none property applied */
+    text-decoration: none;
+}
+
+#h1{
+    /* font-weight: normal; */
+    text-align: center;
+    text-transform: capitalize;
+}
+#h2{
+    font-weight: bold;
+}
+#h3{
+    font-weight: lighter;
+}
+/* font weight lighter is 100 and highter is 900 */
+
+#one{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize/uppercase/lowercase/none;
+}
+#two{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 
+ units in css 
+ Absolute
+ 
+ pixels(px)
+ 
+ 96px = 1 inch =2.54cm
+ 
+ font-size: 2px*/
+

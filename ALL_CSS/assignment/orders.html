@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Orders</h2>
+        <button onclick="showAddOrderForm()">Add Order</button>
+        <div id="orderForm" style="display: none;">
+            <h3>Add Order</h3>
+            <form id="addOrderForm">
+                <div class="form-group">
+                    <label for="orderDate">Order Date:</label>
+                    <input type="date" id="orderDate" name="orderDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="customerID">Customer:</label>
+                    <select id="customerID" name="customerID" required>
+                        <!-- Customer options will be added here dynamically -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="totalQty">Total Quantity:</label>
+                    <input type="number" id="totalQty" name="totalQty" required>
+                </div>
+                <div class="form-group">
+                    <label for="totalAmount">Total Amount:</label>
+                    <input type="number" id="totalAmount" name="totalAmount" required>
+                </div>
+                <button type="submit">Save

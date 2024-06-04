@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Products</h2>
+        <button onclick="showAddProductForm()">Add Product</button>
+        <div id="productForm" style="display: none;">
+            <h3>Add Product</h3>
+            <form id="addProductForm">
+                <div class="form-group">
+                    <label for="productName">Product Name:</label>
+                    <input type="text" id="productName" name="productName" required>
+                </div>
+                <div class="form-group">
+                    <label for="productImage">Product Image URL:</label>
+                    <input type="text" id="productImage" name="productImage">
+                </div>
+                <div class="form-group">
+                    <label for="unit">Unit:</label>
+                    <input type="text" id="unit" name="unit" required>
+                </div>
+                <div class="form-group">
+                    <label for="rate">Rate:</label>
+                    <input type="number" id="rate" name="rate" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description"></textarea>
+                </div>
+                <button type="submit">Save</button>
+            </form>
+        </div>
+        <table id="productsTable">
+            <thead>
+                <tr>
+                    <th>Product Code</th>
+                    <th>Product Name</th>
+                    <th>Image</th>
+                    <th>Unit</th>
+                    <th>Rate</th>
+                    <th>Description</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

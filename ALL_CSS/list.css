@@ -1,0 +1,25 @@
+ul{
+    background-color: rgb(216, 133, 191);
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+/* color: blueviolet; */
+}
+li{
+    list-style: none;
+}
+#inner{
+height: 100px;
+width: 100px;
+background-color: rgb(8, 8, 92);
+/* align-self: flex-start; */
+}
+#outer{
+     height: 300px;
+     width: 300px;
+     background-color: rgb(102, 102, 226);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}

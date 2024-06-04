@@ -1,0 +1,50 @@
+#nav{
+    background-color: black;
+    border: white;
+    height: 60px;
+    border: white solid 2px;
+    position: fixed;
+    top: 0;
+}
+#one{
+    color: yellow;
+    font-size: 20px;
+}
+#two{
+    color: white;
+    /* padding-left: 200px; */
+}
+#three{
+    color: white;
+    /* padding-left: 200px; */
+}
+#four{
+    color: white;
+    /* padding-left: 200px; */
+}
+
+#submit{
+    color: white;
+    
+    background-color: #f08804;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+footer{
+    background-color: black;
+color: white;
+text-align: center;
+/* position: fixed;
+bottom: 0; */
+}
+#content{
+    height: 550px;
+}

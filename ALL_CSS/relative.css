@@ -1,0 +1,46 @@
+div{
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 10px;
+    background-image: url(Passport.jpg);
+    background-size: cover;
+}
+
+#box2{
+    height: 40px;
+    width: 30%;
+    background-color: yellow;
+    /* background-image: url(Passport.jpg);
+    background-size: cover; */
+    /* margin-left: 10pz;
+    font-size: 2em;
+    position: relative;
+    width: 5em; */
+    /* background-color: rgb(208, 180, 235); */
+}
+#box3{ 
+    height: 100px;
+    width: 100px;
+    background-color: rgb(26, 170, 26);
+    font-size: 10px;
+}
+#box4{ 
+    height: 100px;
+    width: 100px;
+    background-color: rgb(75, 176, 75);
+    font-size: 10px;
+    background-image: url(Shantanu_passport.jpg);
+    background-size: cover;
+}
+#box5{ 
+    height: 100px;
+    width: 100px;
+    background-color: rgb(176, 203, 80);
+    font-size: 10px;
+}
